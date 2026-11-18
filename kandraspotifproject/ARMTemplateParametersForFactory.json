@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "kandraspotifproject"
+		},
+		"ls_dataLake_accountKey": {
+			"value": ""
+		},
+		"ls_sqlDB_password": {
+			"value": ""
+		},
+		"ls_dataLake_properties_typeProperties_url": {
+			"value": "https://kandraspotifydatalake.dfs.core.windows.net/"
+		},
+		"ls_sqlDB_properties_typeProperties_server": {
+			"value": "kandraspotify.database.windows.net"
+		},
+		"ls_sqlDB_properties_typeProperties_database": {
+			"value": "spotify"
+		},
+		"ls_sqlDB_properties_typeProperties_userName": {
+			"value": "Barath"
+		}
+	}
+}
