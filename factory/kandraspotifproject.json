@@ -1,0 +1,16 @@
+{
+	"name": "kandraspotifproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f7f39331-2924-4ae7-83fa-e6b603939327",
+		"tenantId": "9b5c3eee-d2a0-4bb4-b93f-b367ed664731"
+	}
+}
